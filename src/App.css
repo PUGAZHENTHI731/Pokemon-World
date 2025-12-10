@@ -117,6 +117,8 @@ body{
   inset: 0;
   z-index: 100;
   backdrop-filter: blur(10px);
+  transition: all .3s;
+  cursor: pointer;
 }
 #exit{
   font-size: 50px;
@@ -125,6 +127,7 @@ body{
   right: 20px;
   color: red;
   cursor: pointer;
+  transition: all .3s;
 }
 #container{
   width: 720px;

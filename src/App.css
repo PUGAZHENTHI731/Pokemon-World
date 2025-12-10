@@ -211,5 +211,8 @@ body{
   .card{
     margin: auto;
   }
+  #head{
+    font-size:30px;
+  }
   
 }

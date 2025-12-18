@@ -44,7 +44,7 @@ export default function App() {
     try {
       setLoading(true);
       const urls = await axios.get(
-        "https://pokeapi.co/api/v2/pokemon?limit=500&offset=0"
+        "https://pokeapi.co/api/v2/pokemon?limit=300&offset=0"
       );
 
       const results = urls.data.results.map((item) => item.url);

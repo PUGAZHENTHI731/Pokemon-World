@@ -193,8 +193,8 @@ body{
   align-items: center;
 }
 #loading img{
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
   position: fixed;
   z-index: 11;
 }

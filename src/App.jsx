@@ -152,7 +152,7 @@ export default function App() {
       </div>
       {loading && (
         <div id="loading">
-          <video autoPlay loop muted playsInline controls={false} src="/loading.mp4" />
+         <img src="./loading.gif" alt="loading" />
         </div>
       )}
     </div>
